@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center-div {
+  display: flex;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  background-color: rebeccapurple;
+}
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+img {
+  padding: 20px;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+  /* border: 2px solid red; */
+  /* box-shadow: 0px 5px 10px rgb(179, 19, 19); */
+}
+img:hover {
+  transform: scale(1.1);
+  /* transform: rotate(360deg);
+  transition: transform 1s ease-in-out; */
+}
